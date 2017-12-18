@@ -13,40 +13,234 @@
     
 </head>
 <body>
-	
-  <!--header-->
-  <nav class="navbar">
-  <a class="navbar-brand" href="#">JSDesign</a>
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Porfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-</nav>
+  
+  <!--nav-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" >
+      <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="#">&lt;JS Design&gt;</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  </div><!--end of header-->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+</nav><!--end of nav-->
 
-<!--body and summary jumbotron has background image-->
+<!-- Header -->
+<div id="header">
   <div class="jumbotron">
-            <div class="container">
+    <div class="container text-center">
+      <h1>&lt;<strong>JS</strong><em>Design</em>&gt;</h1>
+      <p>Imagine. Create. Innovate.</p>
+    </div>
+  </div> 
+</div> <!-- Header ends-->
 
-                <div>
-                  <h1>0123 ABC abc Xx Nn Zz Hh Oo</h1>
-                  <p>0123 ABC abc Xx Nn Zz Hh Oo</p>
+
+ <!-- About content-->
+<div id="about">
+  <div  class="container">
+      <div  class="row">
+        <div class="col-md-4 col-md-offset-1">
+          <img src="assets/images/FreeOnMediaprofiler.jpg" alt="Jon About Image" class="img-rounded">
+        </div>
+        <div class="col-md-7">
+          <div class="page-header">
+          <h2>Who is JS?</h2>
+          </div>
+          <p>My name is Jon Salamat. I am a freelance Graphic Designer with strong Photoshop and Illustration skills and am looking to expand into Web Development and Multi-media design. I am proficient in all common Graphic Softwares such as Photoshop, Illustrator, Indesign, Quark, Dreamweaver, and Flash. I have strong essential knowledge of Graphic Design Compositions, such as Typograhic Design, Grid Design, and various layout compositions for spreads, ads, etc. Also, I am a very talented illustrator and a versatile photographer. In addition to Graphic Design, I am open to job positions in illustration and sequential arts.</p>
+        </div>
+      </div>
+    </div>
+</div> <!--End About-->
+
+
+<!--- Quoates Section -->
+<div id="quotespage"class="container">
+    <section>
+        <div class="page-header" id="qoutes">
+          <h2>Quotes of the Day. <small>Be Inspired </small></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <blockquote>
+              <p>If you can dream it, you can do it. The way to get started is to quit talking and begin doing. All our dreams can come true, if we have the courage to pursue them</p>
+              <footer>Walt Disney</footer>
+            </blockquote>
+          </div>
+          <div class="col-md-4">
+            <blockquote>
+              <p>Whenever someone creates something witth all their heart, then that creation is given a soul</p>
+              <footer>Hayao Miyazaki </footer>
+            </blockquote>
+          </div>
+          <div class="col-md-4">
+            <blockquote>
+              <p>I try not to do anything that's too close to what I've done before. And the nice thing is we have a big universe here. It's filled with new ideas. All you have to do is grab them.</p>
+              <footer>Stan Lee</footer>
+            </blockquote>
+          </div>
+        </div> <!--End Row-->
+    </section>
+  </div> <!--End Container-->
+
+<!-- Call to Action contact-->
+<div id="connect">
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-9">
+          <h2>Connect with JS</h2>
+          <p>Let's make something great!</p>
+            <a class="btn btn-info" href="contact.html">Follow me!</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div> <!-- End of Call to contact-->
+
+<!-- portfolio gallery -->
+<div id="portfolio">
+    <div class="container">
+
+        <div class="row">
+                  <div class="col-md-4">
+                      <a target="_blank" href="https://js5ghostbusterproject1.herokuapp.com/">
+                        <img src="assets/images/JSmathwithfriends300x200.jpg" alt="Basic Portfolio">
+                        <div class="desc">Math with Friends</div>
+                      </a>
+                  </div> 
+                <div class="col-md-4"> 
+                      <a target="_blank" href="https://jsweek-4-game.herokuapp.com/">
+                         <img src="assets/images/JSempressoftomorrow300x200.jpg" alt="Empress of Tomorrow Crystal Quest">
+                         <div class="desc">Crystal Quest</div>
+                      </a>
+                  </div> 
+                  <div class="col-md-4">
+                      <a target="_blank" href="https://jsgiftastic.herokuapp.com/"> 
+                         <img src="assets/images/JSgiftastic300x200.jpg" alt="Play Your Animetion">
+                         <div class="desc">Play Your Animetion</div>
+                      </a>
+                </div> 
+          </div>
+
+        <div class="row">
+                <div class="col-md-4">
+                      <a target="_blank" href="https://jstriviagame.herokuapp.com/"> 
+                          <img src="assets/images/JSbatrivia300x200.jpg" alt="Batrivia">
+                          <div class="desc">Batrivia</div>
+                      </a>
+                  </div>
+                  <div class="col-md-4">
+                      <a target="_blank" href="https://jsweek-7-trainscheduler.herokuapp.com/"> 
+                          <img src="assets/images/JStrainscheduler300x200.jpg" alt="Train Scheduler"> 
+                          <div class="desc">Train Scheduler</div>
+                      </a>
+                </div> 
+                <div class="col-md-4">
+                      <a target="_blank" href="https://github.com/jsalamat/bamazon">
+                           <img src="assets/images/JSbamazon300x200.jpg" alt="Bamazon">
+                            <div class="desc">Bamazon</div>
+                      </a>
                 </div>
-                        
-            </div>
-  </div> <!--end of jumbotron has background image-->
+         </div>
 
+          <div class="row">
+                <div class="col-md-4">
+                      <a target="_blank" href="https://github.com/jsalamat/goread"> 
+                          <img src="assets/images/JSgoread300x200.jpg" alt="GO Read!">
+                          <div class="desc">GO Read!</div>
+                      </a>
+                  </div>
+                  <div class="col-md-4">
+                      <a target="_blank" href="https://jsvideogametrivia.herokuapp.com/"> 
+                          <img src="assets/images/JSthegamemaster300x200.jpg" alt="The Game Master"> 
+                          <div class="desc">The Game Master</div>
+                      </a>
+                </div> 
+                <div class="col-md-4">
+                      <a target="_blank" href="https://jsresponsiveportfolio.herokuapp.com/">
+                           <img src="assets/images/JSbasic300x200.jpg" alt="Basic Porfolio">
+                            <div class="desc">Basic Portfolio</div>
+                      </a>
+                </div>
+         </div>
+
+    </div> 
+</div> <!-- End of Gallery -->
+
+
+<!-- graffiti buidling space-->
+<div id="graffiti">
+  <div class="jumbotron">
+   
+    </div>
+</div> <!--End of Graffiti-->
+
+ <!-- Contact content-->
+<div id="contact">
+  <div  class="container">
+      <div  class="row">
+        <div class="col-md-7 col-md-offset-3">
+          
+            <div class="page-header">
+              <h2>Contact</h2>
+           </div>
+           <div>
+                    
+                    <form action="contact.html">
+
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="name" placeholder="John Smith">
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message"></textarea>
+
+                    
+                        <input type="submit" value="Submit">
+
+                    </form>
+            </div>
+
+        </div>
+      </div>
+    </div>
+</div> <!--End Contact-->
+
+<!-- Links section -->
+<div id="office">
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h2>&lt; Connect with JS Here &gt;</h2>
+            <div class="btn-group">
+                <a href="https://github.com/jsalamat" target="_blank"  class="btn btn-default btn-primary">Github</a>
+                <a href="http://stackoverflow.com/users/6950950/jon-salamat?tab=profile" target="_blank"  class="btn btn-default btn-primary">StackOverflow</a>
+                <a href="https://www.linkedin.com/in/jonsalamat" target="_blank"  class="btn btn-default btn-primary">Linked In</a>
+            </div>
+        </div>
+  </div>
+</div> <!--End of Links -->
+
+<!--footer and copyright-->
 <div class="footer">
   <div class="container text-center">
-      <p>&copy; Copyright 2017 Jon Salamat</p>
+      <p>&copy; Copyright 2017 JS Design</p>
   </div>
 </div>
   
@@ -58,7 +252,6 @@
 <!--     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script> -->
 
     <script type="text/javascript" src="assets/javascript/app.js">
-
     </script>
 
 </body>
