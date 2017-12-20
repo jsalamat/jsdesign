@@ -6,3 +6,12 @@ $(window).scroll(function() {
       $('nav').removeClass('shrink');
     }
 });
+
+$(document).ready(function() {
+    var scrollLink = $('.scroll');
+    //Smooth scrolling
+    scrollLink.click(function(event) {
+      
+    })
+})
+
