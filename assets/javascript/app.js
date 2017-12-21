@@ -18,7 +18,7 @@ $(document).ready(function() {
       //example .animate({width: 50}, 1000)
       $('body,html').animate({
         //bring scroll location to
-        scrollTop: $(this.hash).offset().top
+        scrollTop: $(this.hash).offset().top -50
       }, 1000);
     })
 })
