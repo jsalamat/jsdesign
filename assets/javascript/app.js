@@ -8,7 +8,7 @@ $(window).scroll(function() {
 });
 
 $(document).ready(function() {
-    var scrollLink = $('.scroll');
+    const scrollLink = $('.scroll');
     //-------Smooth Scrolling Animation-------
     scrollLink.click(function(event) {
       //remove default to animate
@@ -23,7 +23,11 @@ $(document).ready(function() {
     })
     //---Switching Active Links On Scroll-----
     $(window).scroll(function(e) {
-      
+      //To keep track of scroll bar
+      //scrollTop() method is used different
+      //from ScrollTop in Smooth Scroll Animation
+      const scrollBarLocation = $(this).scrollTop();
+      // console.log(scrollBarLocation);
     })
 })
 
