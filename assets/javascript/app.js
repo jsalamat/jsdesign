@@ -13,6 +13,7 @@ $(document).ready(function() {
     scrollLink.click(function(event) {
       //remove default to animate
       event.preventDefault();
+      
       //select html body animate css properties
       // css properties in {} followed by comma for duration
       //example .animate({width: 50}, 1000)
@@ -21,13 +22,28 @@ $(document).ready(function() {
         scrollTop: $(this.hash).offset().top -50
       }, 1000);
     })
+    
     //---Switching Active Links On Scroll-----
     $(window).scroll(function(e) {
+      
       //To keep track of scroll bar
       //scrollTop() method is used different
       //from ScrollTop in Smooth Scroll Animation
       const scrollBarLocation = $(this).scrollTop();
       // console.log(scrollBarLocation);
+
+      // for each scrollLink to do function
+      scrollLink.each(function() {
+
+        //calculate the offset top for each section
+        let sectionOffset = $(this.hash).offset().top;
+
+        // 
+        if (sectionOffset <= scrollBarLocation) {
+
+        }
+      })
+
     })
 })
 
