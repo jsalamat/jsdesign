@@ -29,7 +29,7 @@ $(document).ready(function() {
       //To keep track of scroll bar
       //scrollTop() method is used different
       //from ScrollTop in Smooth Scroll Animation
-      const scrollBarLocation = $(this).scrollTop();
+      const scrollBarLocation = $(this).scrollTop() + 130;
       // console.log(scrollBarLocation);
 
       // for each scrollLink to do function
@@ -37,10 +37,16 @@ $(document).ready(function() {
 
         //calculate the offset top for each section
         let sectionOffset = $(this.hash).offset().top;
-
-        // 
+ 
         if (sectionOffset <= scrollBarLocation) {
 
+          //adding class active from li item
+          //by selecting from parent of this link
+          $(this).parent().addClass('active');
+
+          //selecting the links parent and siblings
+          //any links with class active will be remove
+          $(this).parent().siblings().removeClass('active');
         }
       })
 
