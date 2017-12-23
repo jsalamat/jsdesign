@@ -9,7 +9,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
     var scrollLink = $('.scroll');
-    //Smooth scrolling
+    //-------Smooth Scrolling Animation-------
     scrollLink.click(function(event) {
       //remove default to animate
       event.preventDefault();
@@ -20,6 +20,10 @@ $(document).ready(function() {
         //bring scroll location to
         scrollTop: $(this.hash).offset().top -50
       }, 1000);
+    })
+    //---Switching Active Links On Scroll-----
+    $(window).scroll(function(e) {
+      
     })
 })
 
