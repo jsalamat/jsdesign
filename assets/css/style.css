@@ -9,8 +9,8 @@
 
 .container{
   max-width:960px;
-  padding-left:1rem;
-  padding-right:1rem;
+/*  padding-left:1rem;
+  padding-right:1rem;*/
   margin:auto;
   text-align:center;
 }
@@ -133,6 +133,10 @@
 }
 
 /* End of header*/
+a.navbar-brand.scroll {
+/*    color: blue;*/
+  text-shadow: 1px 1px white;
+}
 
 a.navbar-brand {
   font-size: 30px;
